@@ -1,0 +1,18 @@
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 15px
+}
+h2{
+    padding: 20px;
+    text-decoration: underline aqua;
+}
+.btn{
+    margin: 15px;
+}
