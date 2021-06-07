@@ -1,7 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --color-text: red;
+}
 body{
     border: 0;
     padding: 0;
     margin: 0;
+    color: var(--color-text);
 }
 .logo{
     width: 250px;
@@ -9,10 +16,23 @@ body{
     border-radius: 100%;
     margin: 15px
 }
+h1{
+    padding: 20px;
+    color: 	#00FFFF;
+  /*  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000; colocar borda no texto */
+}
 h2{
     padding: 20px;
     text-decoration: underline aqua;
+    text-shadow: 2px 4px 5px #eee, 0 0 1px aqua;
 }
 .btn{
     margin: 15px;
+}
+.background{
+    background-color: whitesmoke;
+}
+.background-nav {
+    background-color: #1C1C1C;
 }
