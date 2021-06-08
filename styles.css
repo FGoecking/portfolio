@@ -1,14 +1,9 @@
-html{
-    scroll-behavior: smooth;
-}
-:root{
-    --color-text: red;
-}
+
 body{
     border: 0;
     padding: 0;
     margin: 0;
-    color: var(--color-text);
+
 }
 .logo{
     width: 250px;
@@ -18,7 +13,7 @@ body{
 }
 h1{
     padding: 20px;
-    color: 	#00FFFF;
+    color: aliceblue;
   /*  -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000; colocar borda no texto */
 }
@@ -35,4 +30,46 @@ h2{
 }
 .background-nav {
     background-color: #1C1C1C;
+}
+a:hover{
+    text-decoration: underline aqua;
+}
+.a-style:hover{
+    color:lightseagreen !important;
+}
+.icon-img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(32, 29, 29, 0.849);
+    border-radius: 50%;
+}
+.card{
+    margin: 1rem 1rem;
+}
+.action{
+    position:fixed;
+    
+}
+.action .profile{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    cursor: help;
+}
+.action .menu{
+    position:absolute;
+    background: #fff;
+    border-top: 1px solid aquamarine;
+    box-sizing: 0 5px 25px rgb(0,0,0,0.1);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.action .menu.active{
+    visibility: visible;
+    opacity: 1;
+}
+h3{
+    cursor: pointer;
 }
