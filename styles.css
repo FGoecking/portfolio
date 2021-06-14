@@ -9,7 +9,12 @@ body{
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    margin: 15px
+    margin: 15px;
+    border: 2px solid black;
+    transform: rotate(7deg);
+}
+.logo:hover{
+    border: 2px solid aqua;
 }
 h1{
     padding: 20px;
@@ -43,9 +48,21 @@ a:hover{
     width: 60px;
     height: 60px;
 }
+.icon-small{
+    width: 40px;
+    height: 40px;
+    margin-left: 1em;
+    border-radius: 50%;
+}
+.icon-html{
+    width: 40px;
+    height: 40px;
+    margin-left: 1em;
+}
+
 .btn-img{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 .card{
     margin: 1rem 1rem;
