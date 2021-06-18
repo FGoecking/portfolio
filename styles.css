@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 body{
     border: 0;
     padding: 0;
@@ -71,4 +71,13 @@ a:hover{
 
 h3{
     padding: 10px 0px 0px 0px;
+}
+.dimensao{
+    max-height: 400px;
+    width: auto;
+    object-fit: contain;
+    margin:1em;
+}
+.espaco{
+    margin: 1em;
 }
