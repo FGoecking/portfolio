@@ -1,0 +1,32 @@
+{% extends "blog/base.html %"}
+
+{% block title %} Meu Blog {% endblock %} 
+
+{% block content %}
+    {% for post in post_list %}
+    <div class="album py-5">
+        <div class="container">
+          <a name="projetos"><h2 class="jumbotron heading text-center">{{ post.title}}</h2></a>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                 <img class="img-thumbnail" src="/images/projetos/projeto1.jpg" alt="icon">
+    
+                <div class="card-body">
+                  <p class="card-text">{{post.body | linebreaks | truncatewords:10 }} </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-info btn-outline-dark"> <a class="link-light" href="#">Ver mais</a> </button>
+                      <button type="button" class="btn btn-info btn-outline-dark"> <a class="link-light" href="https://github.com/FGoecking/portfolio">Github</a></button>
+                    </div>
+                    <small class="text-muted">{{post.created}}</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+{% endblock %}
