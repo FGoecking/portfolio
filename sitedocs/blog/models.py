@@ -7,6 +7,8 @@ class Post(models.Model):
     title = models.CharField(max_length= 255)
     slug = models.SlugField(max_length=55, unique=True)
     thumb = models.ImageField(upload_to='images/projeto/thumb' ,max_length=255, null=True, blank=True)
+    carrossel1 = models.ImageField(upload_to='images/projeto/thumb' ,max_length=255, null=True, blank=True)
+    carrossel2 = models.ImageField(upload_to='images/projeto/thumb' ,max_length=255, null=True, blank=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     body = models.TextField()
     created = models.DateTimeField(auto_now_add=True)

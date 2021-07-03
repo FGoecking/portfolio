@@ -96,7 +96,7 @@
         </div>
       </div>
       
-{% endblock %}
+
           
           <!-- Competências -->
           <section class="jumbotron text-center">
@@ -106,14 +106,14 @@
                 <p class="lead text-md-center fw-normal">Nesta sessão estão algumas tecnologias que já tive contato em projetos, idiomas que tenho alguma familiaridade e outras informações que podem ser úteis.</p>
                 <div class="col-md">
                   <div class="card">
-                    <h3>Programação <img class="icon-img" src="/images/prog.png" alt="python"></h3>
+                    <h3>Programação <img class="icon-img" src="{%static 'images/prog.png' %}" alt="python"></h3>
 
                     <!--PYTHON-->
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                           <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            Python <img class="icon-small" src="/images/python.png" alt="python">
+                            Python <img class="icon-small" src="{%static 'images/python.png' %}" alt="python">
                           </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -127,7 +127,7 @@
                       <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingQuatro">
                           <button class="accordion-button fs-4  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseQuatro" aria-expanded="false" aria-controls="flush-collapseQuatro">
-                            HTML e CSS <img class="icon-html" src="/images/htmlcss.png" alt="htmlcss">
+                            HTML e CSS <img class="icon-html" src="{%static 'images/htmlcss.png' %}" alt="htmlcss">
                           </button>
                         </h2>
                         <div id="flush-collapseQuatro" class="accordion-collapse collapse" aria-labelledby="flush-headingQuatro" data-bs-parent="#accordionFlushExample">
@@ -140,13 +140,13 @@
                 </div>
                 <div class="col-md">
                   <div class="card">
-                      <h3>Idiomas <img class="icon-img" src="images/language.png" alt="languages"></h3>
+                      <h3>Idiomas <img class="icon-img" src="{%static 'images/language.png' %}" alt="languages"></h3>
                       
                       <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="flush-headingTwo">
                             <button class="accordion-button fs-4  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                              Inglês <img class="icon-small" src="/images/english.png" alt="english">
+                              Inglês <img class="icon-small" src="{%static 'images/english.png' %}" alt="english">
                             </button>
                           </h2>
                           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -156,7 +156,7 @@
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="flush-headingThree">
                             <button class="accordion-button fs-4  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                              Espanhol <img class="icon-small" src="/images/espanhol.png" alt="espanhol">
+                              Espanhol <img class="icon-small" src="{%static 'images/espanhol.png' %}" alt="espanhol">
                             </button>
                           </h2>
                           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -208,3 +208,4 @@
             
 
           </section>
+{% endblock %}
