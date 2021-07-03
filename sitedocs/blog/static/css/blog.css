@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+.logo{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 15px;
+    border: 2px solid black;
+    transform: rotate(7deg);
+}
+.logo:hover{
+    border: 2px solid aqua;
+}
+h1{
+    padding: 20px;
+    color: whitesmoke;
+}
+h1:hover{
+    text-decoration: underline aqua;
+}
+h2{
+    padding: 20px;
+    text-decoration: underline aqua;
+    text-shadow: 2px 4px 5px #eee, 0 0 1px aqua;
+}
+.btn{
+    margin: 15px;
+}
+.background{
+    background-color: whitesmoke;
+}
+.background-nav {
+    background-color: #1C1C1C;
+}
+a:hover{
+    text-decoration: underline aqua;
+}
+
+.a-style:hover{
+    color:lightseagreen !important;
+}
+.icon-img{
+    width: 60px;
+    height: 60px;
+}
+.icon-small{
+    width: 40px;
+    height: 40px;
+    margin-left: 1em;
+    border-radius: 50%;
+}
+.icon-html{
+    width: 40px;
+    height: 40px;
+    margin-left: 1em;
+}
+
+.btn-img{
+    width: 35px;
+    height: 35px;
+}
+.card{
+    margin: 1rem 1rem;
+
+}
+
+h3{
+    padding: 10px 0px 0px 0px;
+}
+.dimensao{
+    max-height: 400px;
+    width: auto;
+    object-fit: contain;
+    margin:1em;
+}
+.espaco{
+    margin: 1em;
+}
