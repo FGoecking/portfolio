@@ -10,7 +10,10 @@ class Post(models.Model):
     carrossel1 = models.ImageField(upload_to='images/projeto/thumb' ,max_length=255, null=True, blank=True)
     carrossel2 = models.ImageField(upload_to='images/projeto/thumb' ,max_length=255, null=True, blank=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
-    body = models.TextField()
+    feito = models.TextField( null=True, blank=True)
+    necessario = models.TextField( null=True, blank=True)
+    aprendi = models.TextField( null=True, blank=True)
+    conclusao = models.TextField( null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
